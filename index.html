@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Track daily habits and celebrate small wins.">
+<title>Daily Habit Tracker</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body><main class="app">
+<header><span class="leaf" aria-hidden="true">✳</span><p class="eyebrow">SMALL STEPS, EVERY DAY</p><h1>Daily Habit Tracker</h1><p class="sub">Build routines one checkmark at a time.</p></header>
+<section class="summary"><p class="eyebrow">TODAY'S PROGRESS</p><p class="number"><span id="done">0</span><span class="muted"> / </span><span id="total">0</span></p><div class="track"><div id="fill"></div></div><p id="caption" class="sub">Add a habit to get started.</p></section>
+<section class="panel"><h2>Your habits</h2><form id="form"><label class="sr-only" for="habit">New habit</label><input id="habit" maxlength="70" placeholder="e.g. Read for 10 minutes" required><button type="submit">Add habit +</button></form><p id="message" aria-live="polite" class="message"></p><ul id="list"></ul><div id="empty" class="empty"><span>🌿</span><p><strong>A fresh start.</strong></p><p>Add one small habit to practice today.</p></div></section>
+<footer>Saved locally in this browser · HTML, CSS & JavaScript</footer>
+</main></body></html>
